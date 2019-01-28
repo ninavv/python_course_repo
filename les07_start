@@ -1,0 +1,44 @@
+###start
+import random
+
+ 
+
+class Card:
+
+    def __init__(self,num_rows,num_cols,numbers,card_matrix):
+
+        self.num_rows=3
+
+        self.num_cols=9
+
+        self.all_numbers_in_card=self.num_rows*self.num_cols
+
+        self.numbers=[]
+
+        self.card_matrix=[]
+
+    def fill_card(self):
+
+        while len(numbers)<all_numbers_in_card:
+
+                number = random.randint(1,90)
+
+                if number not in numbers:
+
+                    numbers.append(number)
+
+        card_matrix=[sorted(numbers[:5]),sorted(numbers[5:10]),sorted(numbers[10:])]
+
+        print(card_matrix)
+
+ 
+
+ 
+
+class Players(self,player_1,player_2):
+
+    def __init__(self,player_1,player_2):
+
+        self.player_1=player_1
+
+        self.player_2=player_2
